@@ -16,7 +16,6 @@ This project bridges Computer Vision and Natural Language Processing (NLP) to pr
 1. Frontend/UI: Streamlit
 2. Model: ViT-GPT2 (Vision Transformer + GPT-2)
 3. Libraries: Transformers, PyTorch, Pillow, python-dotenv
-4. Language: Python
 
 ### Setup
 
@@ -41,15 +40,6 @@ source .venv/bin/activate   # On macOS/Linux
 pip install -r requirements.txt
 ```
 
-4. Set up Hugging Face Token
-
-- Create an account on Hugging Face
-- Generate a Read access token from Settings → Access Tokens
-- Create a .env file in the project root and add:
-
-```
-HF_ACCESS_TOKEN=your_huggingface_token_here
-```
 
 ### Setup Using `uv` package manager
 
@@ -82,6 +72,17 @@ uv pip install -r requirements.txt
 
 ### Run the App
 
+1. Set up Hugging Face Token
+
+- Create an account on Hugging Face
+- Generate a Read access token from Settings → Access Tokens
+- Create a .env file in the project root and add:
+
+```
+HF_ACCESS_TOKEN=your_huggingface_token_here
+```
+
+2. Run app.py
 ```
 streamlit run app.py
 ```
@@ -90,10 +91,10 @@ After running, Streamlit will provide a local URL (like http://localhost:8501
 ).
 Open it in your browser to use the application.
 
+
 ### Contribution Guidelines
 
 If you want to add or modify something:
-
 - Create an issue first describing what you plan to do.
 - Fork the repo or create a new branch.
 - Submit a pull request (PR) once your work is ready.
