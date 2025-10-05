@@ -53,7 +53,7 @@ pip install uv
 
 ```
 git clone https://github.com/DataAnalyticClub-NIST/<repo-name>.git
-cd <repo-name>
+cd Image-Captioning-Application
 ```
 
 3. Create a virtual environment and activate it
