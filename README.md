@@ -3,6 +3,8 @@
 A Streamlit-based web application that automatically generates descriptive captions for uploaded images using the ViT-GPT2 image captioning model from Hugging Face.
 This project bridges Computer Vision and Natural Language Processing (NLP) to produce human-like captions for images.
 
+
+
 ### Features
 
 1. Upload images in JPG, JPEG, PNG, or WEBP format
@@ -11,11 +13,15 @@ This project bridges Computer Vision and Natural Language Processing (NLP) to pr
 4. Secure Hugging Face authentication using environment variables (.env)
 5. Built with Streamlit, Transformers, and PyTorch
 
+
+
 ### Tech Stack
 
 1. Frontend/UI: Streamlit
 2. Model: ViT-GPT2 (Vision Transformer + GPT-2)
 3. Libraries: Transformers, PyTorch, Pillow, python-dotenv
+
+
 
 ### Setup
 
@@ -39,6 +45,7 @@ source .venv/bin/activate   # On macOS/Linux
 ```
 pip install -r requirements.txt
 ```
+
 
 
 ### Setup Using `uv` package manager
@@ -75,6 +82,8 @@ uv pip install -r requirements.txt
 source .venv/bin/activate   # On macOS/Linux
 ```
 
+
+
 ### Run the App
 
 1. Set up Hugging Face Token
@@ -95,6 +104,7 @@ streamlit run app.py
 After running, Streamlit will provide a local URL (like http://localhost:8501
 ).
 Open it in your browser to use the application.
+
 
 
 ### Contribution Guidelines
