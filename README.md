@@ -60,14 +60,19 @@ cd <repo-name>
 
 ```
 uv venv
-.venv\Scripts\activate      # On Windows
-source .venv/bin/activate   # On macOS/Linux
 ```
 
 4. Install dependencies
 
 ```
 uv pip install -r requirements.txt
+```
+
+5. Activate virtual environment 
+
+```
+.venv\Scripts\activate      # On Windows
+source .venv/bin/activate   # On macOS/Linux
 ```
 
 ### Run the App
